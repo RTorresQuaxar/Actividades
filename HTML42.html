@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prueba de formulario</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form action="registrardatos.php" method="post">
+  Ingrese su nombre:
+  <input type="text" name="nombre" size="20" disabled>
+  <br>
+  Ingrese su clave: 
+  <input type="password" name="clave" size="12" disabled>
+  <br>
+  Comentarios:<br>
+  <textarea disabled name="comentarios" rows="5" cols="60">   </textarea>
+  <br>
+  <input type="checkbox" name="op1" disabled>Opcion 1<br>
+  <input type="checkbox" name="op2" disabled>Opcion 2<br>
+
+  <br>
+  <input type="radio" name="op" value="1" disabled>Opcion 1<br>
+  <input type="radio" name="op" value="2" disabled>Opcion 2<br>
+  <br>
+  <select name="pais" disabled>
+    <option value="1">Seleccione un País</option>
+    <option value="2">México</option>
+   
+  </select>
+  <br>
+  <button type="submit" disabled>Ingreso al<br>sitio</button>
+  <br>
+  <input type="submit" value="enviar" disabled>
+</form>
+</body>
+</html>
